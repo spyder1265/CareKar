@@ -220,7 +220,7 @@ if (isset($_POST['login'])) {
                 <div class="form-outline mb-4">
                   <label class="form-label" for="form3Example4">Password</label>
                   <input type="password" id="form3Example4" class="form-control" placeholder="**********" name="password" required />
-                  <small id="passwordHelpblock" class="text-danger mt-2">
+                  <small id="passwordHelpblock" class="<?php echo($Error !== "") ? "text-danger " : ""; ?> mt-2">
                     <?php echo($Error !== "") ? $Error : ""; ?>
                   </small>
                 </div>

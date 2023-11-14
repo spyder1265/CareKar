@@ -24,7 +24,7 @@
 
         <div class="form-outline mb-4">
             <div class="form-group">
-                <label for="status">Status</label>
+                <label for="status">Role :</label>
                 <select class="form-control" id="status" name="status">
                     <option value="unverified">unverified</option>
                     <option value="verified">verified</option>

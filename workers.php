@@ -192,14 +192,14 @@ if (isset($_POST['update'])) {
                                 <div class="card-body formelement px-4 py-5 px-md-5">
                                     <form method="post">
                                         <h3 class="my-3 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-                                            Update Customer
+                                            Update Worker
                                         </h3>
                                         <?php
                                         include './includes/workers/editWorkers.php';
                                         ?>
                                         <!-- Submit button -->
                                         <button type="submit" name="update" class="btn btn-dark submit btn-block mb-4">
-                                            Update Customer
+                                            Update Worker
                                         </button>
 
 

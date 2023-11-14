@@ -158,7 +158,6 @@ if (isset($_POST['register'])) {
       </div>
     </div>
   </section>
-  <!-- Section: Design Block -->
 </body>
 
 </html>
