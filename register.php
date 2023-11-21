@@ -77,7 +77,7 @@ if (isset($_POST['register'])) {
 
 <body>
   <!-- Section: Design Block -->
-  <section class="background-radial-gradient formelement overflow-hidden">
+  <section class="background-radial-gradient formelement">
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container-fluid">
         <a class="navbar-brand d-inline-flex align-items-center" href="#">
